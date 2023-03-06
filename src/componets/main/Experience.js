@@ -34,7 +34,7 @@ class Experience extends Component {
     return (
       <React.Fragment>
         <div className="experience_title">
-          <h3>Where I’ve Worked</h3>
+          <h3>My Experience</h3>
         </div>
 
         <div className="jss92" id={this.props.id}>
@@ -48,43 +48,33 @@ class Experience extends Component {
             scrollButtons="auto"
           >
             <Tab
-              label="Freaks4U GmbH"
+              label="Lapi ITB"
               id="vertical-tab-0"
               aria-controls="vertical-tabpanel-0"
             />
             <Tab
-              label="Nexern Gmbh"
+              label="Artifisial Intelegensia Indonesia"
               id="vertical-tab-1"
               aria-controls="vertical-tabpanel-1"
-            />
-            <Tab
-              label="Nexern Gmbh"
-              id="vertical-tab-2"
-              aria-controls="vertical-tabpanel-2"
-            />
-            <Tab
-              label="Ibps Gmbh"
-              id="vertical-tab-2"
-              aria-controls="vertical-tabpanel-2"
             />
           </Tabs>
 
           <TabPanel value={value} index={0}>
             <h3>
-              <span>Front End Developer</span>
+              <span>Software Engineer Intern</span>
               <span className="company">
                 &nbsp;@&nbsp;
                 <a
-                  href="https://www.freaks4u.de/"
+                  href="https://www.lapi-itb.com"
                   target="_blank"
                   rel="noreferrer"
                   className="inline-link"
                 >
-                  Freaks4U
+                  Lapi ITB
                 </a>
               </span>
             </h3>
-            <p className="timeline">Apr 2018 - Dec 2019</p>
+            <p className="timeline">Aug 2022 - Dec 2022</p>
 
             <ul className="company-jobs">
               <li>

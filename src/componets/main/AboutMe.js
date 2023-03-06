@@ -9,7 +9,7 @@ const AboutMe = (props) => {
         </div>
 
         <div className="about_content">
-          <p>Hello! I'm Robert, a software engineer based in Berlin.</p>
+          <p>Halo! I'm Fadlan, a software engineer based in Indonesia.</p>
           <p>
             I enjoy turning complex problems into simple solutions. When I’m not
             coding or pushing pixels into components, you’ll find me learning
@@ -21,7 +21,7 @@ const AboutMe = (props) => {
             <li>HTML & CSS</li>
             <li>React</li>
             <li>Vue</li>
-            <li>WordPress</li>
+            <li>Flask</li>
             <li>Node.js</li>
           </ul>
         </div>
@@ -30,7 +30,7 @@ const AboutMe = (props) => {
         <div className="about_img">
           <picture>
             <img
-              src="https://media-exp1.licdn.com/dms/image/C5603AQEHUvKC_aYXOQ/profile-displayphoto-shrink_200_200/0?e=1606953600&v=beta&t=TiRLx3xv8i6hxwSz4yVa2w1qva5t_Xv4e5bJMOsH90I"
+              src="https://i.ibb.co/vhfpXSB/133817.jpg"
               alt="rex"
             />
           </picture>
