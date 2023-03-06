@@ -10,7 +10,7 @@ const Footer = () => {
         <ul>
           <li>
             <a
-              href="https://github.com/DONROB3R7"
+              href="https://github.com/fadlanfasya"
               target="_blank"
               rel="nofollow noopener noreferrer"
             >
@@ -18,19 +18,19 @@ const Footer = () => {
             </a>
 
             <a
-              href="https://www.linkedin.com/in/costache-robert/"
+              href="https://www.linkedin.com/in/muhammad-fadlan-fasya-5444b912a/?lipi=urn%3Ali%3Apage%3Aprofile_common_profile_index%3B97c4aa4d-62e2-479d-9897-ab6ce9002508"
               target="_blank"
               rel="nofollow noopener noreferrer"
             >
               <LinkedInIcon style={{ fontSize: 30 }} />
             </a>
-            <a
+            {/* <a
               href="https://codesandbox.io/u/DONROB3R7/sandboxes"
               target="_blank"
               rel="nofollow noopener noreferrer"
             >
               <CodeIcon style={{ fontSize: 30 }} />
-            </a>
+            </a> */}
           </li>
         </ul>
       </div>

@@ -16,7 +16,7 @@ const Intro = () => {
         </p>
       </div>
       <div className="intro_cta">
-        <a href="mailto:random.com">Get In Touch</a>
+        <a href="mailto:muhammadfadlanfasya@gmail.com">Get In Touch</a>
       </div>
     </section>
   );

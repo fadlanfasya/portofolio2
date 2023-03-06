@@ -489,7 +489,7 @@ aside .aside-content ol li:hover {
 }
 
 .main.main-project .img-container {
-  background-color: #64ffda;
+  /* background-color: #64ffda; */
   margin-bottom: 20px;
   display: block;
 }
@@ -497,8 +497,8 @@ aside .aside-content ol li:hover {
 .main.main-project .img-container img {
   max-width: 100%;
   height: auto;
-  filter: grayscale(100%);
-  mix-blend-mode: multiply;
+  /* filter: grayscale(100%);
+  mix-blend-mode: multiply; */
   transition: opacity 500ms ease 0s;
 }
 

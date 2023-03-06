@@ -10,7 +10,6 @@ import GetInTouch from "./componets/main/GetInTouch";
 import Footer from "./componets/main/Footer";
 import Zoom from "react-reveal/Zoom";
 
-import mainProject from "./img/main_project1.png";
 
 import "./styles.css";
 
@@ -103,25 +102,37 @@ class Main extends Component {
             <MainProject
               bigTitle="Some Things I’ve Built"
               id="projects"
-              liveCode="https://codesandbox.io/s/mancity-0fygx"
-              projectImg={mainProject}
-              projectLink="https://0fygx.csb.app/"
-              mainTitle="Man City"
-              content="A web app for visualizing footballs matches witch is used react routes 
-              for navigate through the pages.I used react reveal for the most of the  animation,
-              website has an Admin endpoint for accessing the dashboard in the dashboard you can
-              add the games and visualize all the information about matches.
-              For the back-end I used Firebase"
+              // liveCode="https://codesandbox.io/s/mancity-0fygx"
+              projectImg="https://i.ibb.co/wMh6YnF/image-5.png"
+              // projectLink="https://0fygx.csb.app/"
+              mainTitle="WorkForLife"
+              content="A web app for search job"
               technologies={[
                 "HTML5",
                 "CSS3",
                 "JS",
-                "Firebase",
-                "React Router",
-                "React",
-                "React-revel"
+                "Laravel",
+                "Tailwind CSS",
+                "MySQL"
               ]}
-              gitHub="https://github.com/DONROB3R7/man-city"
+              gitHub="https://github.com/fadlanfasya/WorkForLife.git"
+            />
+            <MainProject
+              id="projects"
+              // liveCode="https://codesandbox.io/s/mancity-0fygx"
+              projectImg="https://i.ibb.co/1TnWtgm/image-2023-03-06-151000656.png"
+              // projectLink="https://0fygx.csb.app/"
+              mainTitle="PMIS LAPI ITB"
+              content="A system information web app for bla bla"
+              technologies={[
+                "HTML5",
+                "CSS3",
+                "JS",
+                "Codeigniter",
+                "Vuetify",
+                "MySQL"
+              ]}
+              // gitHub="https://github.com/fadlanfasya/WorkForLife.git"            
             />
           </Zoom>
           <Zoom>

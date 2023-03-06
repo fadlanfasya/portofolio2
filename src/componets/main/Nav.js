@@ -6,7 +6,7 @@ const Nav = (props) => {
     <header>
       <nav className={props.class}>
         <a className="logo" href="/" aria-label="home">
-          padlan
+          F
         </a>
         <div className="main nav">
           <ul className="nav-list">
@@ -59,7 +59,7 @@ const Nav = (props) => {
               </Link>
             </li>
           </ul>
-          <a className="resume" href="/resume">
+          <a className="resume" href="https://drive.google.com/file/d/1yEs0a5ZJAf5_HVVUsBGD_Sdv0Dealpr-/view?usp=sharing">
             Resume
           </a>
         </div>

@@ -52,14 +52,14 @@ const MainProject = (props) => {
             <OpenInNewIcon />
           </a>
 
-          <a
+          {/* <a
             className="external-link"
             href={liveCode}
             target="_blank"
             rel="noreferrer"
           >
             <DeveloperModeIcon />
-          </a>
+          </a> */}
         </div>
       </div>
     </section>
